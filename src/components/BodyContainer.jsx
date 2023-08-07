@@ -1,16 +1,14 @@
 import React from "react";
-// import Gallery from "./Carousel";
-import Carousel from "./Carousel2";
+import Carousel from "./Carousel";
 
 const BodyContainer = () =>{
     return(
         
-        <div class="background">
-            <div id="description-text">
-                <p>
+        <div class="bg-[url('./assets/avion.jpg')] ">
+            <div className='container m-auto grid grid-cols-2 items-center justify-items-center' >
+                <h2 className="text-2xl h-1/2 w-1/3 grid content-center align-center" >
                 "Find your perfect trip, designed by insiders who know and love their cities!". 
-                </p>
-                {/* <Gallery    /> */}
+                </h2>
                 <Carousel />
             </div>
             
